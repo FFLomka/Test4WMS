@@ -10,6 +10,8 @@
 	},
 	"dependencies": {
 		"@radix-ui/react-label": "^2.0.2",
+		"@radix-ui/react-menubar": "^1.0.4",
+		"@radix-ui/react-popover": "^1.0.7",
 		"@radix-ui/react-slot": "^1.0.2",
 		"@reduxjs/toolkit": "^1.7.1",
 		"atob": "^2.1.2",
@@ -18,6 +20,7 @@
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
 		"cookies": "^0.8.0",
+		"date-fns": "^3.4.0",
 		"http-errors": "1.7.0",
 		"lodash": "^4.17.21",
 		"lucide-react": "^0.357.0",
@@ -26,6 +29,7 @@
 		"next-plugin-antd-less": "1.7.0",
 		"qs": "^6.10.2",
 		"react": "^18.2.0",
+		"react-day-picker": "^8.10.0",
 		"react-dom": "^18.2.0",
 		"react-redux": "^8.1.3",
 		"svg-inline-loader": "^0.8.2",
@@ -50,15 +54,7 @@
 		"typescript": "^4.8.3"
 	},
 	"_moduleAliases": {
-		"_styles": "./styles",
-		"_public": "./public",
-		"_components": "./core/components",
-		"_constants": "./core/constants",
-		"_db": "./core/db",
-		"_layouts": "./core/layouts",
-		"_redux": "./core/redux",
-		"_royal": "./core/royal",
-		"_utils": "./core/utils"
+		"_public": "./public"
 	},
 	"importSort": {
 		".js, .jsx, .ts, .tsx": {
